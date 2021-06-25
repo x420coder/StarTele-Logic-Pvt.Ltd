@@ -1,0 +1,35 @@
+Write a program to print below pyramid in JavaScript? * ** *** **** ******
+
+CODE:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <center>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Downward triangle star pattern -javascript</title>
+<script src="/cdn-cgi/apps/head/7ad16KtlbLxpM2EylPUsN0Y3kyw.js"></script></head>
+<body>
+ <h2>StarTele Logic Pvt.Ltd</h2>
+ <script>
+ let n = 5; // you can take input from prompt or change the value
+ let string = " ";
+ for (let i = 0; i < n; i++) {
+ // printing star
+ for (let k = 0; k < n - i; k++) {
+ string += " * ";
+ }
+ string += "<br>";
+ }
+ document.write(string);
+ </script>
+</body>
+</html>
+OUTPUT:-
+                                 StarTele Logic Pvt.Ltd
+                                       * * * * *
+                                        * * * *
+                                         * * *
+                                          * *
+                                           *
